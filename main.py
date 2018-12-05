@@ -73,6 +73,7 @@ class NaiveBayesTest(unittest.TestCase):
         self.assertGreater(fp,0.90)
         self.assertGreater(fn,0.60)
 
+
 if __name__ == "__main__":
     load_data()
     unittest.main()
